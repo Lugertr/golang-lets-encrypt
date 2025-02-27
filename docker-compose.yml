@@ -8,4 +8,4 @@ services:
     volumes:
       - ./certs:/root/.cache
     environment:
-      - DOMAIN=api.dionis.cloud/
+      - DOMAIN=api.dionis.cloud

@@ -16,4 +16,4 @@ COPY --from=builder /app/server .
 
 EXPOSE 80 443
 
-CMD ["./server", "--domain=example.com"]
+CMD ["./server", "--domain=api.dionis.cloud"]
