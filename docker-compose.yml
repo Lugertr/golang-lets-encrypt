@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  letsencrypt:
+    build: .
+    restart: always
+    network_mode: "host" 
+    volumes:
+      - ./certs:/root/.cache
+    environment:
+      - DOMAIN=example.com
